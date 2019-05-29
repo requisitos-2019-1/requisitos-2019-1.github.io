@@ -1,1 +1,338 @@
-hello
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>sei la</title>
+</head>
+<style>
+@charset "UTF-8";
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        line-height: 1.42em;
+        color: #A7A1AE;
+        background-color: #1F2739;
+    }
+
+    h5 {
+        font-size: 3.5em;
+        font-weight: 300;
+        line-height: 1em;
+        text-align: center;
+        color: #4DC3FA;
+    }
+
+    h6 {
+        font-size: 3em;
+        font-weight: 300;
+        line-height: 1em;
+        text-align: center;
+        color: #4DC3FA;
+    }
+    h2 {
+        font-size: 2em;
+        font-weight: 300;
+        text-align: center;
+        display: block;
+        line-height: 1em;
+        padding-bottom: 2em;
+        color: #FB667A;
+    }
+
+    h3 {
+        font-size: 1em;
+        font-weight: 500;
+        /* display: block; */
+        line-height: 1em;
+        padding-bottom: 2em;
+        padding-top: 2em;
+        color: rgb(245, 212, 216);
+    }
+
+    h2 a {
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #FB667A;
+        text-decoration: none;
+    }
+
+    .blue {
+        color: #185875;
+    }
+
+    .yellow {
+        color: #FFF842;
+    }
+
+    .container th h5 {
+        font-weight: bold;
+        font-size: 1em;
+        text-align: left;
+        color: #185875;
+    }
+
+    .container td {
+        font-weight: normal;
+        font-size: 1em;
+        -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+        -moz-box-shadow: 0 2px 2px -2px #0E1119;
+        box-shadow: 0 2px 2px -2px #0E1119;
+    }
+
+    .container {
+        text-align: left;
+        overflow: hidden;
+        width: 95%;
+        margin: 0 auto;
+        display: table;
+        padding: 0 0 8em 0;
+    }
+
+    .container td,
+    .container th {
+        padding-bottom: 2%;
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+
+    /* Background-color of the odd rows */
+    .container tr:nth-child(odd) {
+        background-color: #323C50;
+    }
+
+    /* Background-color of the even rows */
+    .container tr:nth-child(even) {
+        background-color: #2C3446;
+    }
+
+    .container th {
+        background-color: #1F2739;
+    }
+
+    .container td:first-child {
+        color: #FB667A;
+    }
+
+    .container tr:hover {
+        background-color: #464A52;
+        -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+        -moz-box-shadow: 0 6px 6px -6px #0E1119;
+        box-shadow: 0 6px 6px -6px #0E1119;
+    }
+
+    .container td:hover {
+        background-color: #FFF842;
+        color: #403E10;
+        font-weight: bold;
+
+        box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+        transform: translate3d(6px, -6px, 0);
+
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+        transition-property: all;
+        transition-timing-function: line;
+    }
+
+    @media (max-width: 800px) {
+
+        .container td:nth-child(4),
+        .container th:nth-child(4) {
+            display: none;
+        }
+    }  
+.side-line {
+    display: inline-block;
+    border-top: 1px solid black;
+    width: 20px;
+}
+
+.triangle {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    transform: rotate(135deg);
+    transform-origin: center center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    margin-left: -9px;
+    margin-right: -3px;
+    margin-bottom: -3px;
+}
+
+circle {
+    background: pink; width: 70px; height: 70px; border-radius: 50%; display: inline-block; text-align: center; line-height: 70px; margin-right:5px; border-color:#131313;  border-style: solid;color: black;
+}
+
+.hexagon {
+  position: relative;
+  width: 75px; 
+  height: 43.30px;
+  background-color: pink;
+  margin: 21.65px 0;
+  border-left: solid 5px #131313;
+  border-right: solid 5px #131313;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 53.03px;
+  height: 53.03px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 5.9835px;
+}
+
+.hexagon:before {
+  top: -26.5165px;
+  border-top: solid 7.0711px #131313;
+  border-right: solid 7.0711px #131313;
+}
+
+.hexagon:after {
+  bottom: -26.5165px;
+  border-bottom: solid 7.0711px #131313;
+  border-left: solid 7.0711px #131313;
+}
+
+
+</style>
+<h1>Motivações</h1>
+<table class="container">
+        <tr>
+                <th colspan="5"><h5 style="font-size: 1.5em; text-align: center;">Glossário</h5></th>
+                </tr>
+<tr>
+<th>Termo</th>
+<th>Sinônimos</th>
+<th>Significado</th>
+</tr>
+<tr>
+<td>Goal</td>
+<td>Objetivos, metas</td>
+<td>...</td>
+</tr>
+<tr>
+<td>GORE</td>
+<td>Engenharia de Requisitos orientada à Metas</td>
+<td>Goal Oriented Requirements Engineering</td>
+</tr>
+<tr>
+<td>Tasks</td>
+<td>Tarefas</td>
+<td>-</td>
+</tr>
+</table>
+<h2>Fase inicial (GORE)</h2>
+<ul>
+<li>
+<p>Estabelece-se goals iniciais, mais abstratos.</p>
+<ul>
+<li>Exemplos:
+<ul>
+<li>Lucrar mais</li>
+<li>Boa performance</li>
+<li>Sistema facilmente manutenível</li>
+<li>Segurança</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Destrincha os goals, chegando em alternativas/coleções de decisões (?)</p>
+</li>
+<li>
+<p>Goals iniciais podem contradizer-se</p>
+<ul>
+<li>Deve-se extrair as vantagens e desvantagens de cada um</li>
+</ul>
+</li>
+</ul>
+<h2>i* Framework</h2>
+<ul>
+<li>Ajuda a responder questões como:
+<ul>
+<li>Por que esse requisito é funcional e, não, não-funcional?</li>
+<li>Por que esse requisito é necessário?</li>
+</ul>
+</li>
+</ul>
+<h3>Modelagem de Atores Estratégicos</h3>
+<ul>
+<li>Inclui pessoas e máquinas</li>
+<li>Devem responder satisfatoriamente as 3 questões:
+<ul>
+<li>&quot;O que eu quero?&quot;</li>
+<li>&quot;Como alcanço o que quero?&quot;</li>
+<li>&quot;De quem dependo para alcançar o que quero?&quot;</li>
+</ul>
+</li>
+<li>Possuem:
+<ul>
+<li>Metas</li>
+<li>Crenças</li>
+<li>Habilidades</li>
+<li>Compromissos</li>
+</ul>
+</li>
+<li>Dependem de outros atores para agir/tomar ações
+<ul>
+<li>Não atingem metas e nem realizam tarefas sozinhos</li>
+</ul>
+</li>
+<li>Representados por <circle>Círculos</circle> no diagrama</li>
+</ul>
+<table class="container">
+<tr>
+<th> </th>
+<th>Dependência estragégica <strong>(SD)</strong></th>
+<th>Raciocínio estragégico <strong>(SR)</strong></th>
+</tr>
+<tr>
+<td> </td>
+<td>Descreve dependencia (ou, relacionamento intencional) entre atores</td>
+<td>Explica como os atores atingem seus goals</td>
+</tr>
+<tr>
+<td> </td>
+<td>É representado da forma:<br /><circle style="width:55px;height:55px;line-height:55px;">João</circle> -&gt; <em><strong>Dependum</strong></em>* -&gt; <circle style="width:55px;height:55px;line-height:55px;">Maria</circle><br /><br /><strong>Dependum</strong>:<br />Descreve a natureza do acordo entre as duas entidades, e define o tipo de dependência, podendo esta ser:<li>Goals</li><li>Soft Goals</li><li>Tasks</li><li>Recursos</li></td>
+<td>Modela os relacionamentos intencionais (ou, dependencias) dentro de um ator</td>
+</tr>
+</table>
+<table class="container">
+<tr>
+<th colspan="5"><h5 style="font-size: 1.5em; text-align: center;">Dependum's</h5></th>
+</tr>
+<tr>
+<th><h5>___________________</h5></th>
+<th><h5>Goals</h5></th>
+<th><h5>Soft Goals</h5></th>
+<th><h5>Tasks</h5></th>
+<th><h5>Recursos</h5></th>
+</tr>
+<tr>
+<td><b>Descrição</b></td>
+<td><li>É uma condição/estado que as partes desejam alcançar</li><li>Não precisa especificar a forma exata de se atingir isso</li>(o que permite versatilidade)<br /><br /><b>Exemplo:</b><li>Loja ->- Estoque seja mantido ->- Fornecedor</li></td>
+<td><li>Basicamente, requisitos não funcionais</li><li>Goals subjetivos</li><br/><b>Exemplos:</b><li>Cliente ->- Disponibilidade ->- Loja</li><li>Cliente ->- Segurança na compra ->- Loja</li></td>
+<td><li>Define uma forma de se fazer algo<br />(soluções, funções, operações, procedimentos, processos, atividades etc).</li>
+</li><br/><b>Exemplo</b>: Cliente ->- Finalizar Compra ->- Loja</li>
+</td>
+<td><li>Entidade, física ou não, cuja principal preocupação é a <i>Disponibilidade</i>.</li>
+</li><br/><b>Exemplo:</b> Pizzaria ->- Farinha ->- Fornecedor</td>
+</tr>
+<tr>
+<td><b>Símbolo</b></td>
+<td><circle style="width:90px;border-radius:40%">Goal</circle></td>
+<td>(basicamente um Goal mais concavo)</td>
+<td><div class="hexagon"><div style="color:black;z-index:2;position:relative">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Task</div></div></td>
+<td><circle style="border-radius:0%">Recurso</circle></td>
+</tr>
+</table>
